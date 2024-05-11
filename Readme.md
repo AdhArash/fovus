@@ -4,7 +4,7 @@ Codelabs Documentation Link: https://codelabs-preview.appspot.com/?file_id=1kJ1U
 
 ## Steps to recreate the Application:
 1. Clone the repo - both folders are different applications.
-- my-app is the frontend application.
+- coding_challenge/my-app is the frontend application.
 - Install Node
   
       - Run > npm i
@@ -13,17 +13,17 @@ Codelabs Documentation Link: https://codelabs-preview.appspot.com/?file_id=1kJ1U
   
 - App opens on localhost:3000
 
-1. lib/full-stack-stack.ts is the backend CDK application
+1. coding_challenge/lib/full-stack-stack.ts is the backend CDK application
    - Install Node
    - Install AWS CLI
    - Configure AWS CLI
   
          - Run > npm i
   
-   - Navigate to the Lambda Directory and  Run > npm i
+   - Navigate to the Lambda Directory(coding_challenge/lambda) and  Run > npm i
    - Navigate back to parent dir
   
-    -  Run > cdk bootstrap
+         - Run > cdk bootstrap
   
          - Run > cdk synth
   
